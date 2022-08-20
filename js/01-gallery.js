@@ -31,7 +31,7 @@ const onClickContainer = (evt) => {
     const isGalleryEl = evt.target.classList.contains('gallery');
 
     if (isGalleryEl) {
-        return;
+      return;
     }
 
     const source = evt.target.dataset.source;
